@@ -1,0 +1,595 @@
+* {
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-wrap: break-word;
+}
+
+.header {
+    /* background-color: palegreen; */
+    height: 120px;
+}
+
+#logo {
+    width: 25px;
+    height: 32px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#AboutLink {
+    display: none;
+}
+
+.icons {
+    display: none;
+}
+
+.section1 {
+    padding: 17px;
+}
+
+.description {
+    width: 317px;
+}
+
+.heading {
+    font-size: 40px;
+    color: #4C95FC;
+    font-weight: 500;
+    line-height: 45px;
+    overflow-y: hidden;
+}
+
+.para {
+    font-size: 19px;
+    margin: 16px 0px 0px;
+    line-height: 35px;
+    color: #000000;
+}
+
+#kanduaHome {
+    font-size: 19.2px;
+    color: #4C95FC;
+}
+
+
+/* Blue bar */
+.wrapper {
+    background-color: #4C95FC;
+    padding: 10px 22px;
+    height: 400px;
+}
+
+#wrapperContent {
+    padding: 17px;
+    text-align: center;
+    margin: 5px;
+}
+
+#text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#numbers {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+
+/* Customer Section */
+
+.customers {
+    padding: 0px 21px 12px;
+}
+
+.whatCustomersSay {
+    /* padding: 17px; */
+    width: 350px;
+    height: 100px;
+}
+#customerHead {
+    color: #4C95FC;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.thembi {
+    height: 250px;
+    margin: 0 7px;
+    overflow-y: hidden;
+}
+
+.tpj {
+    height: 320px;
+    margin: 0 7px;
+    overflow-y: hidden;
+}
+
+#images {
+    width: 80px;
+}
+
+.customerText {
+    margin: 0px 0px 10px;
+    font-size: 15px;
+    text-align: start;
+}
+
+.customerSummary {
+    position: relative;
+    left: 110px;
+    bottom: 80px;
+    width: 210px;
+    height: 260px;
+    overflow-y: hidden;
+}
+
+.customerWho {    
+    position: relative;
+    left: 40px;
+    font-size: 15px;
+}
+
+
+/* Get a quote */
+.quoteDiv {
+    text-align: center;
+}
+
+#quote {
+    padding: 19px 32px;
+}
+
+#getQuote {
+    background-color: #4C95FC;
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Pros Section */
+.pros {
+    padding: 17px;
+    
+}
+
+.prosHead {
+    color: #4C95FC;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.dmj {
+    padding: 0 0 17px;
+    margin: 0 0 17px;
+    height: 250px;
+    overflow-y: hidden;
+}
+
+.proSummary{
+    position: relative;
+    left: 110px;
+    bottom: 80px;
+    width: 210px;
+    height: 260px;
+}
+
+.proText {
+    margin: 0px 0px 10px;
+    font-size: 15px;
+    text-align: start;
+}
+
+.proWho {
+    position: relative;
+    left: 22px;
+    font-size: 15px;
+}
+
+.proDiv {
+    text-align: center;
+}
+
+#pros {
+    padding: 19px 32px;
+}
+
+#joinPro {
+    background-color: #4C95FC;
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Partners Section */
+.partners {
+    padding: 17px;
+}
+
+.partHead {
+    color: #4C95FC;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.part {
+    padding: 17px;
+}
+
+.partSummary {
+    width: 205;
+    height: 295px;
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding: 0 0 15px;
+    position: relative;
+    left: 95px;
+    bottom: 30px;
+    overflow-y: hidden;
+}
+
+.partText {
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.partWho {
+    position: relative;
+    left: 30px;
+}
+
+
+/* Partner with Kandua */
+.partDiv {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+#prtnr {
+    padding: 19px 32px;
+}
+
+#partLink {
+    background-color: #4C95FC;
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Team Section */
+.teamSec {
+    padding: 17px;
+}
+.teamHead {
+    color: #4C95FC;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.rmr {
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    height: 210px;
+    overflow-y: hidden;
+}
+
+.teamSummary {
+    width: 200px;
+    height: 250px;
+    font-size: 16px;
+    position: relative;
+    left: 100px;
+    bottom: 85px;
+    overflow-y: hidden;
+}
+
+.teamText {
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.teamWho {
+    position: relative;
+    left: 35px;
+    font-size: 15px;
+}
+
+
+/* See job openings */
+.teamDiv {
+    text-align: center;
+}
+
+#team {
+    padding: 19px 32px;
+}
+
+#jobOpn {
+    background-color: #4C95FC;
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/* Founders Section */
+.TheFounders {
+    padding: 21px 22px;
+}
+
+#founder {
+    padding: 0 0 20px;
+}
+
+.foundersHead {
+    color: #4C95FC;
+    font-size: 29px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.foundersFull {
+    margin: 0 0 66px;
+}
+
+#foundersImg {
+    width: 317px;
+    height: 112px;
+}
+
+.founderName {
+    color: #4C95FC;
+    font-size: 29px;
+    margin: 19px 0px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.founderText {
+    text-align: center;
+    line-height: 25px;
+}
+
+
+/* Get in touch */
+.inTouchDiv {
+    text-align: center;
+}
+
+#founders {
+    padding: 19px 32px;
+}
+
+#inTouch {
+    background-color: #4C95FC;
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/* Get in touch */
+#backToHome {
+    padding: 17px;
+}
+#goBack {
+    text-align: center;
+    font-size: 18px;
+}
+#arrow {
+    width: 20px;
+    position: relative;
+    top: 6px;
+}
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1920px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #logo {
+        width: 48px;
+        height: 63px;
+        position: absolute;
+        top: 60px;
+        left: 77px;
+    }
+
+    #AboutLink {
+        display: block;
+        font-size: 20px;
+        color: black;
+        padding: 1.6px 0px;
+        position: absolute;
+        top: 80px;
+        left: 150px;
+        font-weight: 400;
+    }
+
+    .icons {
+        width: 29px;
+        height: 29px;
+        display: inline-block;
+        padding: 0 20px;
+        position: relative;
+        top: 15px;
+    }
+
+    .socialMedia {
+        font: 16px;
+        width: 300px;
+        height: 50px;
+        float: right;
+        position: relative;
+        top: 60px;
+    }
+
+    .spacer {
+        background-color: white;
+        padding: 0px 20px 20px;
+        height: 50px;
+    }
+
+
+
+    /* About Kandua */
+    .section1 {
+        padding: 17px;
+        width: 1920px;
+        margin: 20px;
+    }
+    
+    .description {
+        width: 1200px;
+        margin: auto;
+    }
+    
+    .heading {
+        font-size: 50px;
+        color: #4C95FC;
+        font-weight: 500;
+        line-height: 70px;
+        overflow-y: hidden;
+        
+        margin: 10px;
+    }
+    
+    .para {
+        font-size: 25px;
+        margin: 16px 0px 0px;
+        line-height: 40px;
+        color: #000000;
+    }
+
+    #kanduaHome {
+        font-size: 25px;
+        color: #4C95FC;
+    }
+
+    .spacer2 {
+        background-color: white;
+        height: 35px;
+    }
+
+    /* Blue bar */
+    .wrapper {
+        background-color: #4C95FC;
+        padding: 10px 22px;
+        height: 175px;
+    }
+
+    #wrapperContent {
+        padding: 17px;
+        text-align: center;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    #numbers {
+        color: #ffffff;
+        font-size: 47px;
+        font-weight: 500;
+        text-align: center;
+        margin: 0 150px;
+    }
+
+    #text {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 400;
+    }
+
+    .spacer3 {
+        padding: 0px 17px 17px;
+        background-color: white;
+    }
+
+    /* Customer Section */
+
+    .customers {
+        margin: 0 200px;
+    }
+
+    .whatCustomersSay {
+        /* padding: 17px; */
+        width: 1500px;
+        height: 100px;
+    }
+    #customerHead {
+        color: #4C95FC;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .thembi {
+        height: 250px;
+        margin: 0 7px;
+        overflow-y: hidden;
+    }
+
+    .tpj {
+        height: 320px;
+        margin: 0 7px;
+        overflow-y: hidden;
+    }
+
+    #images {
+        width: 135px;
+        height: 140px;
+    }
+
+    .customerSummary {
+        position: relative;
+        left: 110px;
+        bottom: 80px;
+        width: 210px;
+        height: 260px;
+        overflow-y: hidden;
+    }
+
+    .customerText {
+        margin: 0px 0px 10px;
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .customerWho {    
+        position: relative;
+        left: 40px;
+        font-size: 15px;
+    }
+}
