@@ -197,6 +197,8 @@ body {
     font-size: 15px;
 }
 
+
+/* Join as a Pro */
 .proDiv {
     text-align: center;
 }
@@ -538,6 +540,7 @@ body {
         background-color: white;
     }
 
+
     /* Customer Section */
 
     .customers {
@@ -556,13 +559,13 @@ body {
     }
 
     .thembi {
-        height: 250px;
+        height: 180px;
         margin: 0 7px;
         overflow-y: hidden;
     }
 
     .tpj {
-        height: 320px;
+        height: 180px;
         margin: 0 7px;
         overflow-y: hidden;
     }
@@ -574,22 +577,216 @@ body {
 
     .customerSummary {
         position: relative;
-        left: 110px;
-        bottom: 80px;
-        width: 210px;
+        left: 180px;
+        bottom: 140px;
+        width: 1200px;
         height: 260px;
         overflow-y: hidden;
     }
 
     .customerText {
         margin: 0px 0px 10px;
-        font-size: 15px;
+        font-size: 20px;
         text-align: start;
     }
 
     .customerWho {    
         position: relative;
-        left: 40px;
+        left: 1000px;
+        font-size: 18px;
+    }
+
+    /* Get a quote */
+    .quoteDiv {
+        text-align: center;
+    }
+
+    #quote {
+        padding: 25px 40px;
+    }
+
+    #getQuote {
+        background-color: #4C95FC;
+        padding: 25px 50px;
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    /* Pros Section */
+    .pros {
+        padding: 17px;        
+    }
+
+    .prosHead {
+        color: #4C95FC;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .dmj {
+        padding: 0 0 17px;
+        margin: 0 0 17px;
+        height: 150px;
+    }
+
+    .proSummary{
+        position: relative;
+        left: 180px;
+        bottom: 140px;
+        width: 1200px;
+        height: 260px;
+    }
+
+    .proText {
+        margin: 0px 0px 10px;
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .proWho {
+        position: relative;
+        left: 840px;
+        font-size: 18px;
+        font-style: italic;
+    }
+
+    #Mohammed {
+        position: relative;
+        left: 950px;
+    }
+
+    #Joe {
+        position: relative;
+        left: 1020px;
+    }
+
+    /* Join as a Pro */
+    .proDiv {
+        text-align: center;
+        margin: 80px 0;
+    }
+
+    #pros {
+        padding: 25px 40px;
+    }
+
+    #joinPro {
+        background-color: #4C95FC;
+        padding: 25px 50px;
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    /* Partners Section */
+    .partners {
+        padding: 17px;
+    }
+
+    .partHead {
+        color: #4C95FC;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .partImg {
+        width: 135px !important;
+        height: 50px !important;
+    }
+
+    .part {
+        padding: 17px;
+        height: 300px;
+    }
+
+    .partSummary {
+        width: 1200px;
+        height: 295px;
+        font-size: 16px;
+        margin: 0 0 10px;
+        padding: 0 0 15px;
+        position: relative;
+        left: 180px;
+        bottom: 140px;
+    }
+
+    .partText {
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+
+    .partWho {
+        position: relative;
+        left: 1000px;
+        font-size: 18px;
+    }
+
+    #Cedric {
+        position: relative;
+        left: 820px;
+    }
+
+    /* Partner with Kandua */
+    .partDiv {
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+
+    #prtnr {
+        padding: 25px 40px;
+    }
+
+    #partLink {
+        background-color: #4C95FC;
+        padding: 25px 50px;
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    /* Team Section */
+    .teamSec {
+        padding: 17px;
+    }
+    .teamHead {
+        color: #4C95FC;
+        font-size: 29px;
+        font-weight: 500;
+    }
+
+    .rmr {
+        padding: 0 0 10px;
+        margin: 0 0 10px;
+        height: 210px;
+        overflow-y: hidden;
+    }
+
+    .teamSummary {
+        width: 200px;
+        height: 250px;
+        font-size: 16px;
+        position: relative;
+        left: 100px;
+        bottom: 85px;
+        overflow-y: hidden;
+    }
+
+    .teamText {
+        font-size: 15px;
+        margin: 0 0 10px;
+    }
+
+    .teamWho {
+        position: relative;
+        left: 35px;
         font-size: 15px;
     }
+
+    /* Stroke */
+
 }
