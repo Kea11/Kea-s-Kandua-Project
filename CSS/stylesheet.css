@@ -227,6 +227,12 @@ body {
     font-weight: 500;
 }
 
+#imagesLeroy {
+    width: 80px;
+    position: relative;
+    top: 25px;
+}
+
 .part {
     padding: 17px;
 }
@@ -390,7 +396,7 @@ body {
 }
 
 
-/* Get in touch */
+/* Go Back */
 #backToHome {
     padding: 17px;
 }
@@ -404,6 +410,11 @@ body {
     top: 6px;
 }
 
+
+/* Stroke */
+.TheStroke {
+    padding: 5px;
+}
 
 
 
@@ -452,7 +463,6 @@ body {
     }
 
     .socialMedia {
-        font: 16px;
         width: 300px;
         height: 50px;
         float: right;
@@ -465,7 +475,6 @@ body {
         padding: 0px 20px 20px;
         height: 50px;
     }
-
 
 
     /* About Kandua */
@@ -596,6 +605,7 @@ body {
         font-size: 18px;
     }
 
+
     /* Get a quote */
     .quoteDiv {
         text-align: center;
@@ -613,6 +623,7 @@ body {
         text-decoration: none;
         font-weight: 500;
     }
+
 
     /* Pros Section */
     .pros {
@@ -662,6 +673,7 @@ body {
         left: 1020px;
     }
 
+
     /* Join as a Pro */
     .proDiv {
         text-align: center;
@@ -681,6 +693,7 @@ body {
         font-weight: 500;
     }
 
+
     /* Partners Section */
     .partners {
         padding: 17px;
@@ -693,24 +706,31 @@ body {
     }
 
     .partImg {
-        width: 135px !important;
+        width: 150px !important;
         height: 50px !important;
+    }
+
+    #imagesLeroy {
+        width: 150px;
+        position: relative;
+        top: 50px;
     }
 
     .part {
         padding: 17px;
         height: 300px;
+        overflow-y: hidden;
     }
 
     .partSummary {
         width: 1200px;
-        height: 295px;
+        height: 200px;
         font-size: 16px;
         margin: 0 0 10px;
         padding: 0 0 15px;
         position: relative;
         left: 180px;
-        bottom: 140px;
+        bottom: 55px;
     }
 
     .partText {
@@ -728,6 +748,7 @@ body {
         position: relative;
         left: 820px;
     }
+
 
     /* Partner with Kandua */
     .partDiv {
@@ -749,44 +770,145 @@ body {
         font-weight: 500;
     }
 
+
     /* Team Section */
     .teamSec {
         padding: 17px;
+        margin: 0 200px;
     }
     .teamHead {
         color: #4C95FC;
-        font-size: 29px;
+        font-size: 40px;
         font-weight: 500;
     }
 
     .rmr {
-        padding: 0 0 10px;
-        margin: 0 0 10px;
-        height: 210px;
-        overflow-y: hidden;
+        padding: 17px;
+        height: 150px;
     }
 
     .teamSummary {
-        width: 200px;
-        height: 250px;
+        width: 1200px;
+        height: 200px;
         font-size: 16px;
         position: relative;
-        left: 100px;
-        bottom: 85px;
+        left: 180px;
+        bottom: 140px;
         overflow-y: hidden;
     }
 
     .teamText {
-        font-size: 15px;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+
+    .partText2 {
+        font-size: 20px;
         margin: 0 0 10px;
     }
 
     .teamWho {
         position: relative;
-        left: 35px;
-        font-size: 15px;
+        left: 900px;
+        font-size: 18px;
     }
 
-    /* Stroke */
+    .teamWho1 {
+        position: relative;
+        left: 1000px;
+        font-size: 18px;
+    }
 
+    .teamWho2 {
+        position: relative;
+        left: 920px;
+        font-size: 18px;
+    }
+
+
+    /* See job openings */
+    .teamDiv {
+        text-align: center;
+    }
+
+    #team {
+        padding: 25px 40px;
+    }
+
+    #jobOpn {
+        background-color: #4C95FC;
+        padding: 25px 50px;
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+
+    /* Founders Section */
+    .TheFounders {
+        padding: 21px 22px;
+        margin: 0 200px;
+    }
+
+    #founder {
+        padding: 0 0 20px;
+        text-align: center;
+    }
+
+    .foundersHead {
+        color: #4C95FC;
+        font-size: 40px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    .foundersFull {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .flexcontainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    #foundersImg {
+        width: 600px;
+        height: 220px;
+    }
+
+    .founderSummary {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .founderName {
+        color: #4C95FC;
+        font-size: 29px;
+        margin: 19px 0px;
+        text-align: center;
+        font-weight: 500;
+        position: relative;
+        right: 75px;
+    }
+
+    .founderText {
+        text-align: center;
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+
+     /* Stroke */
+    #stroke {
+        width: 100vw;
+        height: 10vh;
+    }
 }
